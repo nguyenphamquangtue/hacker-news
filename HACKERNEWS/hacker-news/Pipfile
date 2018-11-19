@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+sqlalchemy = "*"
+"psycopg2-binary" = "*"
+bcrypt = "*"
+pylint-flask = "*"
+flask = "*"
+python-dotenv = "*"
+"psycopg2" = "*"
+flask-sqlalchemy = "*"
+
+[dev-packages]
+pylint = "*"
+rope = "*"
+pytest = "*"
+pytest-cov = "*"
+coverage = "*"
+black = "*"
+
+[requires]
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
